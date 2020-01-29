@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -34,8 +34,11 @@ li {
     padding: 0 15px;
 }
 
+/* HEADER */
+
 .header {
     background-color: #e8ebf1;
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.07);
 }
 
 .header__inner {
@@ -46,7 +49,6 @@ li {
 }
 
 .header__logo a {
-    font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 400;
     color: #2aacc8;
@@ -175,4 +177,33 @@ li {
     /* border-left: 1px solid rgb(231, 231, 231); */
     background-color: #fff;
     transition: all .3s;
+}
+
+
+/* SLIDER */
+
+.slider {
+    background-color: #81e4ed;
+    padding: 20px 0 40px;   
+}
+
+.slider__inner {
+
+}
+
+.slider__item {
+    background-image: url(../images/slider-bg.jpg);
+    min-height: 440px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider__item-title {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    width: 300px;
+    padding-top: 90px;
+    margin-left: 60px;
 }
