@@ -2,7 +2,8 @@
 $(function () {
 
     $('.slider__inner').slick({
-        dots: true
+        dots: true,
+        arrows: false
     });
 
 });
