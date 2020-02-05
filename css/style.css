@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Lato', sans-serif;
+    line-height: 20px;
 }
 
 a {
@@ -88,6 +89,7 @@ li {
     visibility: hidden;
 
     position: absolute;
+    z-index: 1;
     width: 200px;
     background-color: #fff;
     border: 1px solid rgb(231, 231, 231);
@@ -201,6 +203,7 @@ li {
 
 .slider__item-title {
     font-size: 50px;
+    line-height: 55px;
     color: #fff;
     font-weight: 700;
     width: 300px;
@@ -227,6 +230,76 @@ li {
 
 .slick-dots li.slick-active button {
     background-color: #fff;
+}
+
+
+.items {
+    background-color: #e8ebf1;
+    padding: 60px 0 50px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.items__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 225px;
+    font-family: Arial, sans-serif;
+}
+
+.item__title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0 0 60px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.item__icons {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #2aacc8;
+    border-radius: 50%;
+    top: 0;
+    left: 0; 
+}
+
+.item__icons img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.margin-left-sm {
+    margin-left: 3px;
+}
+
+.item__text {
+    font-size: 13px;
+    color: #363636;
+    margin-bottom: 25px;
+}
+
+.item__link {
+    font-size: 13px;
+    color: #2aacc8;
+    padding-left: 15px;
+    position: relative;
+}
+
+.item__link::before {
+    content: '';
+    width: 5px;
+    height: 7px;
+    position: absolute;
+    background-image: url(../images/icons/arrow-right.svg);
+    left: 0;
+    top: 6px;
 }
 
 
