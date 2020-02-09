@@ -50,13 +50,15 @@ li {
     height: 120px;
 }
 
-.header__logo a {
+.header__logo a,
+.footer__logo a {
     font-size: 50px;
     font-weight: 400;
     color: #2aacc8;
 }
 
-.header__logo a span {
+.header__logo a span,
+.footer__logo a span {
     color: #000;
     font-weight: 900;
 }
@@ -177,7 +179,6 @@ li {
     display: block;
     color: #2aacc8;
     border-top: 5px solid #2aacc8;
-    /* border-left: 1px solid rgb(231, 231, 231); */
     background-color: #fff;
     transition: all .3s;
 }
@@ -444,7 +445,7 @@ li {
 
 .download__btn a {
     font-size: 18px;
-    line-height: 20px;
+    /* line-height: 20px; */
     font-weight: 700;
     text-transform: uppercase;
     border: 1px solid rgb(42, 172, 200);
@@ -461,7 +462,115 @@ li {
     height: 25px;
     background-image: url(../images/icons/download.svg);
     position: absolute;
-    left: 21px;
+    top: 16px;    
+    left: 19px;
 }
+
+.footer {
+    font-family: Arial, sans-serif;
+    background-color: #e8ebf1;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item-title {
+    font-weight: 700;
+    text-transform:  uppercase;
+}
+
+.footer__item-content {
+    width: 240px;
+}
+
+.footer__text {
+    padding-top: 25px;
+    font-size: 14px;
+    color: #363636;
+}
+
+.footer__item-list {
+    width: 115px;
+}
+
+.footer__list {
+    padding-top: 10px;
+}
+
+.footer__list li {
+    display: block;
+}
+
+.footer__list li a {
+    color: #363636;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer__item-contact {
+    width: 150px;
+}
+
+.footer__address {
+    padding-top: 25px;
+    color: #363636;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.footer__address span {
+    display: block;
+    font-weight: 700;
+}
+
+.footer__phone a {
+    color: #363636;
+    font-size: 14px;
+}
+
+.footer__item-social {
+    width: 185px;
+}
+
+.footer__social {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__copy {
+    font-size: 13px;
+    line-height: 18px;
+    max-width: 650px;
+    color: #363636;
+}
+
+/* RESPONSIVE */
+
+.header__menu-btn {
+    width: 30px;
+    display: none;
+}
+
+.header__menu-row {
+    width: 100%;
+    background-color: #000;
+    height: 4px;
+    margin-bottom: 4px;
+}
+
+
 
   
